@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  references: MyString
+  store_name: MyString
+  store_cost: 
+  store_url: MyString
+  skin_color: MyString
+  sex: MyString
+
+two:
+  references: MyString
+  store_name: MyString
+  store_cost: 
+  store_url: MyString
+  skin_color: MyString
+  sex: MyString

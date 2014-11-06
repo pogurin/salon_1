@@ -1,0 +1,20 @@
+<h1>Add a picture</h1>
+<%= link_to "Back to pictures" ,pictures_url %>
+<%= form_for @picture do |f| %>
+
+<p>
+	<%= f.label "skin_color" %><br>
+	<%= f.text_field "skin_color" %>
+</p>
+<p>
+	<%= f.label "store_name" %><br>
+	<%= f.text_field "store_name" %>
+</p>
+<p>
+	<%= f.label "store_url" %><br>
+	<%= f.text_field "store_url" %>
+</p>
+<p>
+	<%= f.submit "Save" %>
+</p>
+<% end %>

@@ -1,0 +1,23 @@
+<h1>Edit Picture</h1>
+
+<p>
+	<%= link_to "Back", @picture %>
+</p>
+
+<%= form_for @picture do |f| %>
+<P>
+	<%= f.label "skin_color" %><br>
+	<%= f.text_field "skin_color" %>
+</P>
+<p>
+	<%= f.label "store_name" %><br>
+	<%= f.text_field "store_name" %>
+</p>
+<p>
+	<%= f.label "store_url" %><br>
+	<%= f.text_field "store_url" %>
+</p>
+<p>
+	<%= submit_tag "Save" %>
+</p>
+<% end %>
