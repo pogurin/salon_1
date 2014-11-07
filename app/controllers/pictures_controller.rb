@@ -1,6 +1,6 @@
 class PicturesController < ApplicationController
 	def index
-		@pictures = Picture.all 
+		@pictures = Picture.all  # ここに
 	end
 
 	def show
@@ -29,7 +29,7 @@ class PicturesController < ApplicationController
 		@picture.destroy 
 		redirect_to pictures_url
 	end
-	
+
 	def update 
 		@picture = Picture.find(params[:id])
 		if @picture.update_attributes(picture_params)

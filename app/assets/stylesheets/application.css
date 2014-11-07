@@ -13,13 +13,19 @@
  *= require_tree .
  *= require_self
  */
+body
+{
+background-image:url("http://img17.shop-pro.jp/PA01153/457/etc/sozai_bg_crayon_300.jpg?20120901181003");
+background-color: gray
+}
 
 p
 {
 	background-color: yellow;
 	font-size: 20px;
 	font-family: "Times New Roman", Georgia, Serif;
-	width: 50%
+	width: 50%;
+	margin: 0px
 }
 
 img
